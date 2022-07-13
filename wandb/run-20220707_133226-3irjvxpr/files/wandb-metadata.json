@@ -1,0 +1,21 @@
+{
+    "os": "Windows-10-10.0.19041-SP0",
+    "python": "3.7.6",
+    "heartbeatAt": "2022-07-07T11:32:31.341976",
+    "startedAt": "2022-07-07T11:32:26.375646",
+    "docker": null,
+    "cpu_count": 8,
+    "cuda": null,
+    "args": null,
+    "state": "running",
+    "program": "Documents/GitHub/kaggle_comp/Untitled1.ipynb",
+    "root": "C:/Users/Windows 10/Documents/GitHub/kaggle_comp",
+    "git": {
+        "remote": "https://github.com/vivdenx/kaggle_comp.git",
+        "commit": "f5ce03cd751472120f37a0ab51c7ee95223dd7fc"
+    },
+    "email": "vivian.claes@live.nl",
+    "host": "DESKTOP-5C3IG5H",
+    "username": "Windows 10",
+    "executable": "C:\\Users\\Windows 10\\anaconda3\\python.exe"
+}

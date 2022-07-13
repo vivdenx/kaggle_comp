@@ -1,0 +1,45 @@
+2022-07-07 13:29:21,326 INFO    MainThread:13736 [wandb_setup.py:_flush():76] Configure stats pid to 13736
+2022-07-07 13:29:21,326 INFO    MainThread:13736 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Windows 10\.config\wandb\settings
+2022-07-07 13:29:21,326 INFO    MainThread:13736 [wandb_setup.py:_flush():76] Loading settings from C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\settings
+2022-07-07 13:29:21,326 INFO    MainThread:13736 [wandb_setup.py:_flush():76] Loading settings from environment variables: {}
+2022-07-07 13:29:21,326 INFO    MainThread:13736 [wandb_setup.py:_flush():76] Inferring run settings from compute environment: {'program': '<python with no main file>'}
+2022-07-07 13:29:21,327 INFO    MainThread:13736 [wandb_init.py:_log_setup():461] Logging user logs to C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_132921-2b86ekx4\logs\debug.log
+2022-07-07 13:29:21,327 INFO    MainThread:13736 [wandb_init.py:_log_setup():462] Logging internal logs to C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_132921-2b86ekx4\logs\debug-internal.log
+2022-07-07 13:29:21,328 INFO    MainThread:13736 [wandb_init.py:_jupyter_setup():411] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x000001F7A12C1088>
+2022-07-07 13:29:21,328 INFO    MainThread:13736 [wandb_init.py:init():495] calling init triggers
+2022-07-07 13:29:21,328 INFO    MainThread:13736 [wandb_init.py:init():499] wandb.init called with sweep_config: {}
+config: {'competition': 'Feedback Prize Effectiveness', 'dropout': 0.1, 'learning_rate': 1e-05, 'epochs': 1, 'batch_size': 16, 'model': 'bert'}
+2022-07-07 13:29:21,328 INFO    MainThread:13736 [wandb_init.py:init():548] starting backend
+2022-07-07 13:29:21,328 INFO    MainThread:13736 [backend.py:_multiprocessing_setup():99] multiprocessing start_methods=spawn, using: spawn
+2022-07-07 13:29:21,373 INFO    MainThread:13736 [backend.py:ensure_launched():217] starting backend process...
+2022-07-07 13:29:21,537 INFO    MainThread:13736 [backend.py:ensure_launched():222] started backend process with pid: 19736
+2022-07-07 13:29:21,538 INFO    MainThread:13736 [wandb_init.py:init():558] backend started and connected
+2022-07-07 13:29:21,736 INFO    MainThread:13736 [wandb_run.py:_label_probe_notebook():1084] probe notebook
+2022-07-07 13:29:21,739 INFO    MainThread:13736 [wandb_run.py:_label_probe_notebook():1094] Unable to probe notebook: 'NoneType' object has no attribute 'get'
+2022-07-07 13:29:21,740 INFO    MainThread:13736 [wandb_init.py:init():634] updated telemetry
+2022-07-07 13:29:21,918 INFO    MainThread:13736 [wandb_init.py:init():666] communicating run to backend with 30 second timeout
+2022-07-07 13:29:51,929 INFO    MainThread:13736 [interface_shared.py:_communicate_run():326] couldn't get run from backend
+2022-07-07 13:29:51,930 ERROR   MainThread:13736 [wandb_init.py:init():674] backend process timed out
+2022-07-07 13:29:51,930 ERROR   MainThread:13736 [wandb_init.py:init():685] encountered error: Error communicating with wandb process
+try: wandb.init(settings=wandb.Settings(start_method='fork'))
+or:  wandb.init(settings=wandb.Settings(start_method='thread'))
+For more info see: https://docs.wandb.ai/library/init#init-start-error
+2022-07-07 13:29:51,962 ERROR   MainThread:13736 [wandb_init.py:init():1070] error
+Traceback (most recent call last):
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 1043, in init
+    run = wi.init()
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\wandb_init.py", line 689, in init
+    backend.cleanup()
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\backend\backend.py", line 246, in cleanup
+    self.interface.join()
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 475, in join
+    super().join()
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\interface\interface.py", line 666, in join
+    _ = self._communicate_shutdown()
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 472, in _communicate_shutdown
+    _ = self._communicate(record)
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 226, in _communicate
+    return self._communicate_async(rec, local=local).get(timeout=timeout)
+  File "C:\Users\Windows 10\anaconda3\lib\site-packages\wandb\sdk\interface\interface_shared.py", line 231, in _communicate_async
+    raise Exception("The wandb backend process has shutdown")
+Exception: The wandb backend process has shutdown

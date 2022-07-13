@@ -1,0 +1,47 @@
+wandb_version: 1
+
+_wandb:
+  desc: null
+  value:
+    cli_version: 0.12.21
+    framework: tensorflow
+    is_jupyter_run: true
+    is_kaggle_kernel: true
+    python_version: 3.7.6
+    start_time: 1657193546
+    t:
+      1:
+      - 3
+      - 55
+      3:
+      - 3
+      - 8
+      - 13
+      - 16
+      4: 3.7.6
+      5: 0.12.21
+      8:
+      - 1
+      - 2
+      - 3
+      - 5
+      10:
+      - 9
+batch_size:
+  desc: null
+  value: 16
+competition:
+  desc: null
+  value: Feedback Prize Effectiveness
+dropout:
+  desc: null
+  value: 0.1
+epochs:
+  desc: null
+  value: 1
+learning_rate:
+  desc: null
+  value: 1.0e-05
+model:
+  desc: null
+  value: bert

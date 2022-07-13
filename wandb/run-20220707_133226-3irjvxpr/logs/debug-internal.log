@@ -1,0 +1,655 @@
+2022-07-07 13:32:30,525 INFO    MainThread:27676 [internal.py:wandb_internal():93] W&B internal server running at pid: 27676, started at: 2022-07-07 13:32:30.524142
+2022-07-07 13:32:30,527 INFO    WriterThread:27676 [datastore.py:open_for_write():75] open: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\run-3irjvxpr.wandb
+2022-07-07 13:32:30,535 DEBUG   SenderThread:27676 [sender.py:send():236] send: header
+2022-07-07 13:32:30,535 DEBUG   SenderThread:27676 [sender.py:send():236] send: run
+2022-07-07 13:32:30,940 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: check_version
+2022-07-07 13:32:31,004 INFO    SenderThread:27676 [dir_watcher.py:__init__():216] watching files in: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files
+2022-07-07 13:32:31,004 INFO    SenderThread:27676 [sender.py:_start_run_threads():818] run started: 3irjvxpr with start time 1657193546
+2022-07-07 13:32:31,005 DEBUG   SenderThread:27676 [sender.py:send():236] send: summary
+2022-07-07 13:32:31,006 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-07 13:32:31,006 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: check_version
+2022-07-07 13:32:31,308 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: run_start
+2022-07-07 13:32:31,335 DEBUG   HandlerThread:27676 [meta.py:__init__():35] meta init
+2022-07-07 13:32:31,341 DEBUG   HandlerThread:27676 [meta.py:__init__():49] meta init done
+2022-07-07 13:32:31,341 DEBUG   HandlerThread:27676 [meta.py:probe():209] probe
+2022-07-07 13:32:31,360 DEBUG   HandlerThread:27676 [meta.py:_setup_git():199] setup git
+2022-07-07 13:32:31,649 DEBUG   HandlerThread:27676 [meta.py:_setup_git():206] setup git done
+2022-07-07 13:32:31,649 DEBUG   HandlerThread:27676 [meta.py:_save_pip():53] save pip
+2022-07-07 13:32:31,652 DEBUG   HandlerThread:27676 [meta.py:_save_pip():67] save pip done
+2022-07-07 13:32:31,653 DEBUG   HandlerThread:27676 [meta.py:_save_conda():74] save conda
+2022-07-07 13:32:32,018 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\requirements.txt
+2022-07-07 13:32:32,019 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\conda-environment.yaml
+2022-07-07 13:32:32,019 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\wandb-summary.json
+2022-07-07 13:32:37,070 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 13:32:51,068 DEBUG   HandlerThread:27676 [meta.py:_save_conda():84] save conda done
+2022-07-07 13:32:51,068 DEBUG   HandlerThread:27676 [meta.py:probe():247] probe done
+2022-07-07 13:32:51,703 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\conda-environment.yaml
+2022-07-07 13:32:51,704 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\wandb-metadata.json
+2022-07-07 13:32:55,363 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:32:55,363 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:32:55,367 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:32:55,367 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:32:55,415 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:32:55,415 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:32:55,433 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:32:55,433 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:32:55,555 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:32:55,555 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:32:55,580 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:32:55,581 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:32:55,660 DEBUG   SenderThread:27676 [sender.py:send():236] send: telemetry
+2022-07-07 13:32:55,705 DEBUG   SenderThread:27676 [sender.py:send():236] send: files
+2022-07-07 13:32:55,705 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:32:55,705 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file wandb-metadata.json with policy now
+2022-07-07 13:32:55,705 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:32:55,724 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:32:55,726 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:32:55,728 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:32:56,352 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:32:56,352 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:32:56,580 INFO    Thread-20 :27676 [upload_job.py:push():138] Uploaded file C:\Users\WINDOW~1\AppData\Local\Temp\tmpgwjnyejewandb\2dn8xx9k-wandb-metadata.json
+2022-07-07 13:32:58,309 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:32:58,309 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:32:58,386 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:33:01,807 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\config.yaml
+2022-07-07 13:33:11,655 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:33:11,656 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:33:26,967 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:33:26,968 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:33:42,194 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:33:42,195 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:33:57,527 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:33:57,528 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:34:12,932 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:34:12,932 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:34:28,148 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:34:28,148 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:34:35,620 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:34:35,621 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:34:35,634 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:34:35,635 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:34:35,759 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:34:44,179 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:34:44,179 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:34:49,845 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:34:49,845 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:34:52,427 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:34:52,427 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:34:52,502 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:34:59,468 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:34:59,468 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:35:14,786 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:35:14,786 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:35:20,205 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:35:20,205 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:35:22,786 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:35:22,786 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:35:22,864 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:35:30,029 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:35:30,030 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:35:39,680 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:35:39,680 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:35:39,700 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:35:39,700 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:35:39,821 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:35:41,883 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:35:41,883 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:35:44,432 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:35:44,432 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:35:44,504 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:35:45,351 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:35:45,352 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:35:54,503 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:35:54,503 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:35:55,929 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:35:55,929 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:35:56,050 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:35:59,390 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:35:59,390 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:35:59,404 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:35:59,404 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:35:59,425 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:00,653 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:36:00,653 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:36:03,659 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:03,659 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:04,216 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:04,217 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:04,234 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:06,617 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:06,617 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:06,935 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:06,935 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:06,979 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:16,993 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:16,994 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:17,079 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:36:17,079 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:36:17,330 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:17,330 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:17,364 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:23,889 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:23,890 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:23,911 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:23,911 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:24,032 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:32,378 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:36:32,381 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:36:47,629 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:36:47,630 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:36:53,005 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:53,005 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:53,150 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:53,150 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:53,245 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:36:57,836 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:36:57,837 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:36:58,152 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:36:58,152 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:36:58,190 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:37:02,927 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:37:02,928 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:37:05,800 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:37:05,800 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:37:06,398 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:37:06,398 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:37:06,480 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:37:07,818 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 13:37:18,277 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:37:18,278 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:37:22,600 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:37:22,600 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:37:22,613 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:37:22,619 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:37:22,736 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:37:23,942 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 13:37:33,584 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:37:33,585 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:37:42,853 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:37:42,853 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:37:42,867 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:37:42,867 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:37:42,892 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:37:48,884 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:37:48,884 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:37:54,557 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:37:54,558 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:37:54,569 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:37:54,574 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:37:54,692 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:37:59,977 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:37:59,977 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:37:59,996 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:37:59,997 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:38:00,114 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:38:04,199 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:38:04,199 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:38:08,824 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:38:08,824 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:38:19,463 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:38:19,463 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:38:34,840 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:38:34,841 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:38:39,227 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:38:50,358 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:38:50,359 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:39:06,732 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:39:06,732 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:39:11,829 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:39:23,981 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:39:23,982 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:39:40,822 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:39:40,823 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:39:44,490 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:39:57,331 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:39:57,332 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:40:16,302 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:40:16,303 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:40:17,179 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:40:32,195 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:40:32,195 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:40:47,631 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:40:47,632 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:40:49,715 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:41:03,088 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:41:03,088 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:41:18,346 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:41:18,346 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:41:22,299 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:41:33,599 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:41:33,600 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:41:48,853 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:41:48,853 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:41:54,868 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:42:04,203 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:42:04,203 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:42:20,014 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:42:20,015 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:42:27,483 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:42:35,315 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:42:35,315 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:42:50,772 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:42:50,772 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:43:00,038 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:43:06,967 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:43:06,968 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:43:22,353 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:43:22,353 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:43:32,592 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:43:38,246 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:43:38,248 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:43:53,644 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:43:53,645 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:44:05,228 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:44:13,663 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:44:13,664 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:44:29,080 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:44:29,081 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:44:37,689 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:44:44,585 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:44:44,585 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:44:59,901 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:44:59,901 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:45:10,191 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:45:15,275 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:45:15,276 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:45:31,172 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:45:31,172 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:45:42,696 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:45:46,486 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:45:46,487 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:46:01,855 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:46:01,856 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:46:15,214 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:46:17,717 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:46:17,717 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:46:33,753 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:46:33,753 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:46:47,727 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:46:49,021 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:46:49,022 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:47:04,405 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:47:04,405 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:47:19,725 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:47:19,726 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:47:20,261 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:47:35,177 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:47:35,177 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:47:50,696 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:47:50,697 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:47:52,800 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:48:06,016 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:48:06,017 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:48:21,323 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:48:21,324 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:48:25,321 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:48:37,297 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:48:37,297 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:48:52,575 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:48:52,575 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:48:57,775 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:49:07,806 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:49:07,806 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:49:24,078 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:49:24,079 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:49:30,267 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:49:40,644 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:49:40,645 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:49:55,940 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:49:55,941 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:50:02,838 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:50:11,236 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:50:11,236 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:50:26,555 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:50:26,555 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:50:31,143 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 13:50:35,413 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:50:35,880 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:50:35,880 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:50:35,965 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:50:35,965 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:50:35,974 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:50:35,974 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:50:35,990 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 13:50:35,990 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 13:50:35,998 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 13:50:35,998 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 13:50:36,132 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:50:36,133 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:50:36,134 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 13:50:37,162 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 13:50:41,828 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:50:41,829 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:50:57,113 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:50:57,113 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:51:13,010 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:51:13,011 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:51:28,220 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:51:28,220 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:51:43,489 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:51:43,490 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:51:58,755 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:51:58,756 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:52:14,157 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:52:14,158 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:52:29,405 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:52:29,406 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:52:44,678 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:52:44,678 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:53:01,017 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:53:01,017 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:53:16,273 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:53:16,273 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:53:31,587 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:53:31,588 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:53:46,817 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:53:46,818 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:54:02,134 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:54:02,135 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:54:18,361 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:54:18,362 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:54:33,568 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:54:33,569 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:54:48,802 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:54:48,803 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:55:05,128 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:55:05,129 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:55:20,365 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:55:20,366 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:55:35,602 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:55:35,603 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:55:50,827 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:55:50,828 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:56:06,066 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:56:06,067 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:56:22,296 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:56:22,297 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:56:37,514 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:56:37,515 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:56:52,749 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:56:52,750 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:57:11,046 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:57:11,047 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:57:26,256 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:57:26,257 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:57:41,517 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:57:41,518 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:57:56,768 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:57:56,769 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:58:12,002 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:58:12,002 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:58:27,184 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:58:27,184 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:58:42,401 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:58:42,402 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:58:57,678 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:58:57,679 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:59:13,123 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:59:13,124 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:59:28,362 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:59:28,364 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:59:43,591 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:59:43,592 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 13:59:58,814 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 13:59:58,815 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:00:17,759 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:00:17,760 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:00:32,969 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:00:32,970 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:00:48,217 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:00:48,218 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:01:03,459 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:01:03,460 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:01:18,810 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:01:18,811 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:01:33,671 WARNING FileStreamThread:27676 [file_stream.py:request_with_retry():594] requests_with_retry encountered retryable exception: ('Connection aborted.', OSError("(10060, 'WSAETIMEDOUT')")). func: <bound method Session.post of <requests.sessions.Session object at 0x000001B63CD8B048>>, args: ('https://api.wandb.ai/files/vivdenx/Feedback Prize Effectiveness/3irjvxpr/file_stream',), kwargs: {'json': {'complete': False, 'failed': False, 'dropped': 0, 'uploaded': []}}
+2022-07-07 14:01:38,828 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:01:38,828 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:01:54,071 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:01:54,072 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:02:09,418 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:02:09,419 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:02:24,788 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:02:24,789 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:02:40,186 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:02:40,187 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:02:55,610 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:02:55,611 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:03:10,840 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:03:10,840 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:03:27,579 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:03:27,580 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:03:42,803 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:03:42,803 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:03:58,038 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:03:58,039 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:04:13,282 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:04:13,283 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:04:28,491 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:04:28,491 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:04:43,700 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:04:43,701 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:04:58,908 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:04:58,909 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:05:14,131 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:05:14,132 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:05:29,345 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:05:29,345 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:05:44,582 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:05:44,583 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:06:00,546 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:06:00,547 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:06:15,883 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:06:15,884 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:06:31,230 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:06:31,231 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:06:48,019 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:06:48,019 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:07:03,452 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:07:03,453 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:07:18,695 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:07:18,696 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:07:33,952 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:07:33,953 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:07:49,176 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:07:49,176 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:08:04,382 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:08:04,383 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:08:19,607 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:08:19,608 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:08:34,829 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:08:34,830 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:08:50,054 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:08:50,055 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:09:05,289 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:09:05,289 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:09:20,507 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:09:20,507 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:09:36,901 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:09:36,902 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:09:52,119 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:09:52,120 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:10:07,344 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:10:07,345 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:10:22,575 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:10:22,575 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:10:37,794 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:10:37,794 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:10:54,145 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:10:54,146 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:11:09,370 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:11:09,371 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:11:24,688 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:11:24,689 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:11:39,947 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:11:39,948 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:11:55,199 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:11:55,200 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:12:10,433 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:12:10,433 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:12:25,672 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:12:25,673 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:12:40,932 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:12:40,933 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:12:56,156 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:12:56,156 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:13:11,370 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:13:11,371 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:13:26,657 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:13:26,658 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:13:42,014 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:13:42,014 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:13:57,380 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:13:57,380 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:14:12,727 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:14:12,727 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:14:24,261 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 14:14:24,261 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 14:14:26,215 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:14:28,060 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:14:28,061 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:14:43,452 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:14:43,452 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:14:54,627 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:14:58,935 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:14:58,935 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:14:59,409 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 14:14:59,409 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 14:14:59,523 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:15:14,328 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:15:14,329 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:15:28,601 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 14:15:28,601 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 14:15:28,614 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 14:15:28,614 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 14:15:28,630 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:15:29,743 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:15:29,744 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:15:32,633 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 14:15:32,634 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 14:15:35,880 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:15:45,062 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:15:45,063 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:16:00,599 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:16:00,599 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:16:03,026 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:16:07,201 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: pause
+2022-07-07 14:16:07,201 INFO    HandlerThread:27676 [handler.py:handle_request_pause():695] stopping system metrics thread
+2022-07-07 14:16:07,256 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:16:16,269 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:16:16,270 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:16:30,379 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: resume
+2022-07-07 14:16:30,379 INFO    HandlerThread:27676 [handler.py:handle_request_resume():686] starting system metrics thread
+2022-07-07 14:16:32,469 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:16:36,336 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:16:36,336 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:16:51,960 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:16:51,960 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:17:00,730 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:17:07,327 DEBUG   SenderThread:27676 [sender.py:send():236] send: telemetry
+2022-07-07 14:17:07,329 DEBUG   SenderThread:27676 [sender.py:send():236] send: telemetry
+2022-07-07 14:17:07,330 DEBUG   SenderThread:27676 [sender.py:send():236] send: files
+2022-07-07 14:17:07,333 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file model-best.h5 with policy live
+2022-07-07 14:17:07,338 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: get_summary
+2022-07-07 14:17:07,339 DEBUG   SenderThread:27676 [sender.py:send():236] send: telemetry
+2022-07-07 14:17:07,339 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:17:07,340 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:17:09,917 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:17:15,961 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\config.yaml
+2022-07-07 14:17:23,927 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:17:23,928 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:17:33,325 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:17:39,185 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:17:39,463 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:17:39,463 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:17:40,198 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:17:43,475 DEBUG   SenderThread:27676 [sender.py:send():236] send: summary
+2022-07-07 14:17:43,480 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-07 14:17:44,255 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\wandb-summary.json
+2022-07-07 14:17:51,341 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:17:54,971 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:17:54,971 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:17:57,416 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\output.log
+2022-07-07 14:18:05,940 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:18:10,200 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:18:10,200 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:18:30,512 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:18:30,522 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:18:41,084 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:18:46,179 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:18:46,180 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:18:51,459 DEBUG   SenderThread:27676 [sender.py:send():236] send: files
+2022-07-07 14:18:51,459 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file media\graph\graph_summary_1a889837b864212d40a3.graph.json with policy now
+2022-07-07 14:18:51,477 DEBUG   SenderThread:27676 [sender.py:send():236] send: summary
+2022-07-07 14:18:51,481 INFO    SenderThread:27676 [sender.py:_save_file():952] saving file wandb-summary.json with policy end
+2022-07-07 14:18:51,972 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_modified():286] file/dir modified: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\wandb-summary.json
+2022-07-07 14:18:51,973 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\media\graph\graph_summary_1a889837b864212d40a3.graph.json
+2022-07-07 14:18:51,975 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\media\graph
+2022-07-07 14:18:51,976 INFO    Thread-11 :27676 [dir_watcher.py:_on_file_created():269] file/dir created: C:\Users\Windows 10\Documents\GitHub\kaggle_comp\wandb\run-20220707_133226-3irjvxpr\files\media
+2022-07-07 14:18:52,518 INFO    Thread-46 :27676 [upload_job.py:push():138] Uploaded file C:\Users\WINDOW~1\AppData\Local\Temp\tmpgwjnyejewandb\32wl1jt2-media/graph/graph_summary_1a889837b864212d40a3.graph.json
+2022-07-07 14:19:01,658 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:19:01,658 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:19:18,372 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:19:18,403 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:19:19,465 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:19:34,549 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:19:34,551 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:19:50,072 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:19:50,076 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:19:54,018 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:20:05,540 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:20:05,551 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:20:22,771 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:20:22,775 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:20:31,979 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:20:38,244 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:20:38,245 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:20:53,860 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:20:53,860 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:21:08,817 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:21:09,302 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:21:09,311 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:21:25,272 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:21:25,277 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:21:41,068 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:21:41,069 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:21:45,375 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:21:56,606 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:21:56,607 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:22:12,585 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:22:12,595 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:22:23,671 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:22:29,327 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:22:29,342 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:22:44,960 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:22:44,960 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:22:58,921 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:23:00,477 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:23:00,477 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:23:16,754 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:23:16,761 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:23:32,564 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:23:32,566 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:23:36,768 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:23:48,104 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:23:48,105 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:24:03,506 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:24:03,510 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:24:13,328 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:24:22,602 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:24:22,607 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:24:38,413 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:24:38,421 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:24:50,323 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:24:57,342 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:24:57,343 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:25:13,303 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:25:13,303 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:25:26,555 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats
+2022-07-07 14:25:29,517 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:25:29,522 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:25:46,093 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:25:46,119 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:26:01,815 DEBUG   HandlerThread:27676 [handler.py:handle_request():140] handle_request: stop_status
+2022-07-07 14:26:01,817 DEBUG   SenderThread:27676 [sender.py:send_request():250] send_request: stop_status
+2022-07-07 14:26:05,501 DEBUG   SenderThread:27676 [sender.py:send():236] send: stats

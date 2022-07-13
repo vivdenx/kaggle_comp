@@ -1,0 +1,56 @@
+
+[SEP]
+Sample input sequence:
+Lead[SEP]Hi, i'm Isaac, i'm going to be writing about how this face on Mars is a natural landform or if there is life on Mars that made it. The story is about how NASA took a picture of Mars and a face was seen on the planet. NASA doesn't know if the landform was created by life on Mars, or if it is just a natural landform.
+Tokenized sequence:
+['Lead', '[SEP]', 'Hi', ',', 'i', "'", 'm', 'Isaac', ',', 'i', "'", 'm', 'going', 'to', 'be', 'writing', 'about', 'how', 'this', 'face', 'on', 'Mars', 'is', 'a', 'natural', 'land', '##form', 'or', 'if', 'there', 'is', 'life', 'on', 'Mars', 'that', 'made', 'it', '.', 'The', 'story', 'is', 'about', 'how', 'NASA', 'took', 'a', 'picture', 'of', 'Mars', 'and', 'a', 'face', 'was', 'seen', 'on', 'the', 'planet', '.', 'NASA', 'doesn', "'", 't', 'know', 'if', 'the', 'land', '##form', 'was', 'created', 'by', 'life', 'on', 'Mars', ',', 'or', 'if', 'it', 'is', 'just', 'a', 'natural', 'land', '##form', '.']
+input_ids:
+[101, 10440, 102, 8790, 117, 178, 112, 182, 7026, 117, 178, 112, 182, 1280, 1106, 1129, 2269, 1164, 1293, 1142, 1339, 1113, 7403, 1110, 170, 2379, 1657, 13199, 1137, 1191, 1175, 1110, 1297, 1113, 7403, 1115, 1189, 1122, 119, 1109, 1642, 1110, 1164, 1293, 9085, 1261, 170, 3439, 1104, 7403, 1105, 170, 1339, 1108, 1562, 1113, 1103, 5015, 119, 9085, 2144, 112, 189, 1221, 1191, 1103, 1657, 13199, 1108, 1687, 1118, 1297, 1113, 7403, 117, 1137, 1191, 1122, 1110, 1198, 170, 2379, 1657, 13199, 119, 102, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+token_type_ids:
+[0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+attention_mask:
+[1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0]
+Some weights of the model checkpoint at bert-base-cased were not used when initializing TFBertModel: ['nsp___cls', 'mlm___cls']
+- This IS expected if you are initializing TFBertModel from the checkpoint of a model trained on another task or with another architecture (e.g. initializing a BertForSequenceClassification model from a BertForPretraining model).
+- This IS NOT expected if you are initializing TFBertModel from the checkpoint of a model that you expect to be exactly identical (initializing a BertForSequenceClassification model from a BertForSequenceClassification model).
+All the weights of TFBertModel were initialized from the model checkpoint at bert-base-cased.
+If your task is similar to the task the model of the checkpoint was trained on, you can already use TFBertModel for predictions without further training.
+Model: "model"
+__________________________________________________________________________________________________
+Layer (type)                    Output Shape         Param #     Connected to
+==================================================================================================
+input_ids (InputLayer)          [(None, 256)]        0
+__________________________________________________________________________________________________
+attention_mask (InputLayer)     [(None, 256)]        0
+__________________________________________________________________________________________________
+token_type_ids (InputLayer)     [(None, 256)]        0
+__________________________________________________________________________________________________
+tf_bert_model (TFBertModel)     ((None, 256, 768), ( 108310272   input_ids[0][0]
+__________________________________________________________________________________________________
+tf_op_layer_strided_slice (Tens [(None, 768)]        0           tf_bert_model[0][0]
+__________________________________________________________________________________________________
+dropout_37 (Dropout)            (None, 768)          0           tf_op_layer_strided_slice[0][0]
+__________________________________________________________________________________________________
+dense (Dense)                   (None, 3)            2307        dropout_37[0][0]
+==================================================================================================
+Total params: 108,312,579
+Trainable params: 108,312,579
+Non-trainable params: 0
+__________________________________________________________________________________________________
+Fold 1: Train Set: 3352, Validation Set: 839
+Fold 1: Train Set: 3352, Validation Set: 839
+Fold 1: Train Set: 3352, Validation Set: 839
+wandb: WARNING The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.
+WARNING:tensorflow:From C:\Users\Windows 10\anaconda3\lib\site-packages\tensorflow\python\profiler\internal\flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+WARNING:tensorflow:From C:\Users\Windows 10\anaconda3\lib\site-packages\tensorflow\python\profiler\internal\flops_registry.py:243: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.
+Instructions for updating:
+Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
+WARNING:tensorflow:Gradients do not exist for variables ['tf_bert_model/bert/pooler/dense/kernel:0', 'tf_bert_model/bert/pooler/dense/bias:0'] when minimizing the loss.
